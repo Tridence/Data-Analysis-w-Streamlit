@@ -87,3 +87,27 @@ a4.metric(
 ) #Note the f-string? Nice Solution when using variables
 
 st.markdown("""---""") #Horizontal Separator
+
+
+""""
+GRAPHICAL REPRESENTATIONS
+"""
+#Create 2 columns in the app
+st.write(
+    """
+    #### Visualization: Bar/Line Charts showing population per City
+    """
+)
+b1,b2 = st.columns(2)
+with b1:
+    st.bar_chart(
+        df,
+        x="City",
+        y="Population",
+    ) #barchart Visualising the population of the cities
+    with b2:
+        st.line_chart(
+            df, x="City", y="population"
+        ) #Line chart visualising the population of the cities
+        
+        st.markdown("""---""") #Horizontal Separator
