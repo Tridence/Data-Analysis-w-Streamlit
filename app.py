@@ -20,7 +20,7 @@ st.set_page_config(
 st.write(
     """
     ## My first streamlit application
-    ### This app will display graphs of the populations of several kenya towns
+    #### This app will display graphs of the populations of several kenya towns
     """
 )
 
@@ -29,6 +29,12 @@ df = pd.read_csv(
     "data/kenyan_town_populations.csv"
     ) 
 
+
+
+
+"""
+QUICK VIEW THROUGH THE DATASET
+""" 
 # Creating and Displaying a Table with heading
 st.write(
     """
@@ -60,12 +66,15 @@ df.loc["Mean_Value"] = df.mean(numeric_only=True)
 
 
 
+
+"""
+SUMMARY OF THE DATASETS
+""" 
 st.write(
     """
     #### Table 2: Population of Kenya Towns Male/ Female
     """
 )
-
 
 # Better textual visualization
 # Create three columns in the app and do some visualization
@@ -87,6 +96,8 @@ a4.metric(
 ) #Note the f-string? Nice Solution when using variables
 
 st.markdown("""---""") #Horizontal Separator
+
+
 
 
 """
