@@ -48,7 +48,7 @@ df["Male_Percent"] = [
     45,
     53,
     52,
-    47
+    47,
     54,
 ] #Say I know male %. Just attach a new column to df
 df["Female_Percent"] = (
