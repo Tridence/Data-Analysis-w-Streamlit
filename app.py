@@ -89,7 +89,7 @@ a4.metric(
 st.markdown("""---""") #Horizontal Separator
 
 
-""""
+"""
 GRAPHICAL REPRESENTATIONS
 """
 #Create 2 columns in the app
