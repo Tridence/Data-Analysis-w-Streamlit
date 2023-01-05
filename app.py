@@ -112,4 +112,4 @@ with b2:
         y="population",
     ) #Line chart visualising the population of the cities
         
-        st.markdown("""---""") #Horizontal Separator
+st.markdown("""---""") #Horizontal Separator
