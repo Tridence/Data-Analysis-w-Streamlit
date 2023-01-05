@@ -2,7 +2,7 @@
 A simple streamlit app demo
 """
 
-import streamlit as st #Import the streamlit package to the app
+import streamlit as st  #Import the streamlit package to the app
 import pandas as pd #Import the pandas package to handle data
 
 #Page setting - Set's your application's layout, title and icon
