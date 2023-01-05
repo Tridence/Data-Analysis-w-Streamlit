@@ -10,7 +10,7 @@ import pandas as pd #Import the pandas package to handle data
 #Check all supported emojis here - https://raw.githubusercontent.com/omnidan/node-emoji/master/lib/emoji.json
 
 st.set_page_config(
-    layout="wide", page_title="Visualising City Population, Kenya", page_icon="KE"
+    layout="wide", page_title="Visualising City Population, Kenya", page_icon="🇰🇪"
 )
 
 # The code below use the inbuilt streamlit "write" functionality and 
