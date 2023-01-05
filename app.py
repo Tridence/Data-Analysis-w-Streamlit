@@ -37,6 +37,36 @@ st.write(
     )
 st.table(df) #using streamlit's table functionality to draw a table of our data
 
+st.markdown("""---""") #Horizontal Separator
+
+#Calculating the average population in all towns
+average_population = df["Population"].mean()
+
+#Add two new coluns to the data frame showing the percentage of population that is female or male
+df["Male_Percent"] = [
+    55,
+    45,
+    53,
+    52,
+    47
+    54,
+] #Say I know male %. Just attach a new column to df
+df["Female_Percent"] = (
+    100 - df["Male_Percent"]
+) #Calculate Female % by subtracting Male % from 100
+
+#Add a row of means for all numerical columns
+df.loc["Mean_Value"] = df.mean(numeric_only=True)
+
+
+
+st.write(
+    """
+    #### Table 2: Population of Kenya Towns Male/ Female
+    """
+)
+
+
 # Better textual visualization
 # Create three columns in the app and do some visualization
 st.write(
