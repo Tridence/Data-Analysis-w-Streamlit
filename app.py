@@ -107,7 +107,9 @@ with b1:
     ) #barchart Visualising the population of the cities
     with b2:
         st.line_chart(
-            df, x="City", y="population"
+            df,
+            x="City",
+            y="population",
         ) #Line chart visualising the population of the cities
         
         st.markdown("""---""") #Horizontal Separator
