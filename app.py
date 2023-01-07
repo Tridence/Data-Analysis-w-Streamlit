@@ -15,7 +15,6 @@ st.set_page_config(
 
 # The code below use the inbuilt streamlit "write" functionality and 
 # Markdown Language to write formated texts on your app
-# You can learn more about Markdown by googling it
 
 st.write(
     """
