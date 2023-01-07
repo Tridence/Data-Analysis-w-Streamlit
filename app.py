@@ -100,7 +100,7 @@ st.markdown("""---""") #Horizontal Separator
 
 
 """
-GRAPHICAL REPRESENTATIONS
+GRAPHICAL REPRESENTATION
 """
 #Create 2 columns in the app
 st.write(
