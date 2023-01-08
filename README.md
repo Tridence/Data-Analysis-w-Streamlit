@@ -9,4 +9,4 @@ A snippet of the project
 
 
 
-Credit : https://github.com/brightmaraba
+Credits [Brian Koech](https://github.com/brightmaraba)
